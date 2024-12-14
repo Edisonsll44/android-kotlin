@@ -1,0 +1,52 @@
+[
+  {
+    "pregunta": "What does the verb 'run' mean?",
+    "opciones": ["A) To walk slowly", "B) To move fast on foot", "C) To sit down", "D) To jump"],
+    "respuesta_correcta": "B) To move fast on foot"
+  },
+  {
+    "pregunta": "What is the meaning of the verb 'to eat'?",
+    "opciones": ["A) To drink", "B) To consume food", "C) To sleep", "D) To play"],
+    "respuesta_correcta": "B) To consume food"
+  },
+  {
+    "pregunta": "What does the verb 'to write' mean?",
+    "opciones": ["A) To draw", "B) To create text", "C) To read", "D) To speak"],
+    "respuesta_correcta": "B) To create text"
+  },
+  {
+    "pregunta": "What is the meaning of the verb 'to speak'?",
+    "opciones": ["A) To listen", "B) To talk", "C) To write", "D) To think"],
+    "respuesta_correcta": "B) To talk"
+  },
+  {
+    "pregunta": "What does the verb 'to sleep' mean?",
+    "opciones": ["A) To rest", "B) To eat", "C) To run", "D) To work"],
+    "respuesta_correcta": "A) To rest"
+  },
+  {
+    "pregunta": "What is the meaning of the verb 'to read'?",
+    "opciones": ["A) To look at pictures", "B) To understand written words", "C) To write a letter", "D) To sing a song"],
+    "respuesta_correcta": "B) To understand written words"
+  },
+  {
+    "pregunta": "What does the verb 'to play' mean?",
+    "opciones": ["A) To work", "B) To engage in a game or activity", "C) To study", "D) To sleep"],
+    "respuesta_correcta": "B) To engage in a game or activity"
+  },
+  {
+    "pregunta": "What is the meaning of the verb 'to listen'?",
+    "opciones": ["A) To hear sounds", "B) To speak loudly", "C) To write notes", "D) To watch TV"],
+    "respuesta_correcta": "A) To hear sounds"
+  },
+  {
+    "pregunta": "What does the verb 'to jump' mean?",
+    "opciones": ["A) To move up quickly", "B) To walk slowly", "C) To sit down", "D) To run fast"],
+    "respuesta_correcta": "A) To move up quickly"
+  },
+  {
+    "pregunta": "What is the meaning of the verb 'to help'?",
+    "opciones": ["A) To ignore", "B) To assist someone", "C) To play", "D) To eat"],
+    "respuesta_correcta": "B) To assist someone"
+  }
+]

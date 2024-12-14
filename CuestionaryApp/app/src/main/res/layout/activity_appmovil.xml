@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+  <!-- Generic Header -->
+  <com.example.cuestionaryapp.GenericHeader
+      android:id="@+id/cmp_generic_header"
+      android:layout_width="match_parent"
+      android:layout_marginTop="100dp"
+      android:layout_height="wrap_content" />
+
+  <!-- Main Content Container with Scroll -->
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="100dp"
+      android:layout_marginBottom="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <!-- Question TextView -->
+      <TextView
+          android:id="@+id/txt_question"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="18sp"
+          android:textStyle="bold" />
+
+      <!-- Options Container -->
+      <LinearLayout
+          android:id="@+id/ll_options"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" />
+
+
+      <!-- Correct Answer TextView -->
+      <TextView
+          android:id="@+id/txt_response"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="16dp"
+          android:textSize="24sp"
+          android:textColor="@android:color/white"
+          android:gravity="center"  />
+
+      <!-- ImageView for Result Icon -->
+      <ImageView
+          android:id="@+id/iv_icon"
+          android:layout_gravity="center"
+          android:layout_width="14dp"
+          android:layout_height="14dp"
+          android:visibility="gone" />
+
+    </LinearLayout>
+  </ScrollView>
+
+  <LinearLayout
+      android:id="@+id/ll_sumary"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/lbl_approved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Aprobados:" />
+
+    <TextView
+        android:id="@+id/lbl_incorrect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incorrectas:" />
+
+  </LinearLayout>
+</LinearLayout>

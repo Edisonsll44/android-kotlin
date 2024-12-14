@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cuestionary</string>
+    <string name="Matemathics">Matemáticas</string>
+    <string name="English">Ingles</string>
+    <string name="Computation">Informática</string>
+    <string name="History">Historia</string>
+    <string name="App">Aplicaciones móviles</string>
+</resources>

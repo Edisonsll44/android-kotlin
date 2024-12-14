@@ -1,0 +1,52 @@
+[
+  {
+    "pregunta": "¿Qué es un smartphone?",
+    "opciones": ["A) Un tipo de computadora", "B) Un teléfono móvil inteligente", "C) Un televisor", "D) Una cámara digital"],
+    "respuesta_correcta": "B) Un teléfono móvil inteligente"
+  },
+  {
+    "pregunta": "¿Cuál es el sistema operativo más común en dispositivos móviles?",
+    "opciones": ["A) Windows", "B) Android", "C) Linux", "D) macOS"],
+    "respuesta_correcta": "B) Android"
+  },
+  {
+    "pregunta": "¿Qué función principal tiene una aplicación de mensajería?",
+    "opciones": ["A) Jugar videojuegos", "B) Hacer llamadas telefónicas", "C) Enviar y recibir mensajes", "D) Tomar fotos"],
+    "respuesta_correcta": "C) Enviar y recibir mensajes"
+  },
+  {
+    "pregunta": "¿Qué significa 'app'?",
+    "opciones": ["A) Aplicación", "B) Apuesta", "C) Apoyo", "D) Apellido"],
+    "respuesta_correcta": "A) Aplicación"
+  },
+  {
+    "pregunta": "¿Cuál es la función de la cámara en un dispositivo móvil?",
+    "opciones": ["A) Hacer llamadas", "B) Navegar por internet", "C) Tomar fotos y grabar videos", "D) Escuchar música"],
+    "respuesta_correcta": "C) Tomar fotos y grabar videos"
+  },
+  {
+    "pregunta": "¿Qué es la conectividad Bluetooth?",
+    "opciones": ["A) Un tipo de archivo", "B) Una forma de conectar dispositivos de forma inalámbrica", "C) Un sistema operativo", "D) Un tipo de red móvil"],
+    "respuesta_correcta": "B) Una forma de conectar dispositivos de forma inalámbrica"
+  },
+  {
+    "pregunta": "¿Qué se utiliza para desbloquear la pantalla de un teléfono?",
+    "opciones": ["A) Contraseña", "B) Teclado", "C) Pantalla táctil", "D) Todas las anteriores"],
+    "respuesta_correcta": "D) Todas las anteriores"
+  },
+  {
+    "pregunta": "¿Qué es la memoria RAM en un dispositivo móvil?",
+    "opciones": ["A) Almacenamiento permanente", "B) Almacenamiento temporal para ejecutar aplicaciones", "C) Un tipo de batería", "D) Un accesorio externo"],
+    "respuesta_correcta": "B) Almacenamiento temporal para ejecutar aplicaciones"
+  },
+  {
+    "pregunta": "¿Cuál es la función de un GPS en un dispositivo móvil?",
+    "opciones": ["A) Jugar videojuegos", "B) Navegar por internet", "C) Localizar la ubicación del usuario", "D) Escuchar música"],
+    "respuesta_correcta": "C) Localizar la ubicación del usuario"
+  },
+  {
+    "pregunta": "¿Qué es una actualización de software?",
+    "opciones": ["A) Cambiar el dispositivo", "B) Mejorar o corregir el sistema operativo o aplicaciones", "C) Comprar un nuevo teléfono", "D) Cambiar de compañía telefónica"],
+    "respuesta_correcta": "B) Mejorar o corregir el sistema operativo o aplicaciones"
+  }
+]

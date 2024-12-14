@@ -1,0 +1,52 @@
+[
+  {
+    "pregunta": "¿Qué es un sistema operativo?",
+    "opciones": ["A) Un programa que gestiona el hardware y software de un dispositivo", "B) Un tipo de virus informático", "C) Un dispositivo de almacenamiento", "D) Un lenguaje de programación"],
+    "respuesta_correcta": "A) Un programa que gestiona el hardware y software de un dispositivo"
+  },
+  {
+    "pregunta": "¿Cuál es la función principal de un antivirus?",
+    "opciones": ["A) Acelerar el sistema", "B) Proteger contra software malicioso", "C) Mejorar la calidad de la imagen", "D) Gestionar archivos"],
+    "respuesta_correcta": "B) Proteger contra software malicioso"
+  },
+  {
+    "pregunta": "¿Qué es la nube en informática?",
+    "opciones": ["A) Un tipo de hardware", "B) Almacenamiento y servicios accesibles a través de internet", "C) Un sistema operativo", "D) Un programa de diseño gráfico"],
+    "respuesta_correcta": "B) Almacenamiento y servicios accesibles a través de internet"
+  },
+  {
+    "pregunta": "¿Qué significa 'hardware'?",
+    "opciones": ["A) Programas y aplicaciones", "B) Componentes físicos de un ordenador", "C) Datos almacenados", "D) Redes de computadoras"],
+    "respuesta_correcta": "B) Componentes físicos de un ordenador"
+  },
+  {
+    "pregunta": "¿Qué es un algoritmo?",
+    "opciones": ["A) Un tipo de software", "B) Un conjunto de instrucciones para resolver un problema", "C) Un dispositivo de entrada", "D) Un sistema operativo"],
+    "respuesta_correcta": "B) Un conjunto de instrucciones para resolver un problema"
+  },
+  {
+    "pregunta": "¿Cuál es la función de un navegador web?",
+    "opciones": ["A) Almacenar datos", "B) Navegar por internet", "C) Proteger el sistema", "D) Crear documentos"],
+    "respuesta_correcta": "B) Navegar por internet"
+  },
+  {
+    "pregunta": "¿Qué es un archivo?",
+    "opciones": ["A) Un programa de software", "B) Un conjunto de datos almacenados", "C) Un dispositivo de entrada", "D) Un tipo de red"],
+    "respuesta_correcta": "B) Un conjunto de datos almacenados"
+  },
+  {
+    "pregunta": "¿Qué es la programación?",
+    "opciones": ["A) El proceso de diseñar y crear software", "B) Un tipo de hardware", "C) Un sistema operativo", "D) Un virus informático"],
+    "respuesta_correcta": "A) El proceso de diseñar y crear software"
+  },
+  {
+    "pregunta": "¿Qué es un servidor?",
+    "opciones": ["A) Un dispositivo que almacena datos", "B) Un programa de diseño", "C) Un sistema operativo", "D) Un ordenador que proporciona servicios a otros ordenadores"],
+    "respuesta_correcta": "D) Un ordenador que proporciona servicios a otros ordenadores"
+  },
+  {
+    "pregunta": "¿Qué es un virus informático?",
+    "opciones": ["A) Un programa que mejora el rendimiento del sistema", "B) Un software malicioso que puede dañar el sistema", "C) Un tipo de hardware", "D) Un sistema operativo"],
+    "respuesta_correcta": "B) Un software malicioso que puede dañar el sistema"
+  }
+]

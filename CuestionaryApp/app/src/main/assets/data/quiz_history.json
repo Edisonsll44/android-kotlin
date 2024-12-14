@@ -1,0 +1,52 @@
+[
+  {
+    "pregunta": "¿Cuál fue la primera capital del Ecuador después de la independencia?",
+    "opciones": ["A) Quito", "B) Guayaquil", "C) Cuenca", "D) Ambato"],
+    "respuesta_correcta": "A) Quito"
+  },
+  {
+    "pregunta": "¿En qué año se proclamó la independencia del Ecuador?",
+    "opciones": ["A) 1820", "B) 1830", "C) 1809", "D) 1860"],
+    "respuesta_correcta": "C) 1809"
+  },
+  {
+    "pregunta": "¿Quién fue el primer presidente de la República del Ecuador?",
+    "opciones": ["A) Eloy Alfaro", "B) Gabriel García Moreno", "C) Juan José Flores", "D) Vicente Rocafuerte"],
+    "respuesta_correcta": "C) Juan José Flores"
+  },
+  {
+    "pregunta": "¿Qué guerra tuvo lugar entre Ecuador y Perú en 1941?",
+    "opciones": ["A) Guerra del Cenepa", "B) Guerra de los Dos Océanos", "C) Guerra del Pacífico", "D) Guerra de 1941"],
+    "respuesta_correcta": "D) Guerra de 1941"
+  },
+  {
+    "pregunta": "¿Qué tratado se firmó en 1998 para resolver el conflicto limítrofe entre Ecuador y Perú?",
+    "opciones": ["A) Tratado de Paquisha", "B) Tratado de Río de Janeiro", "C) Tratado de Tordesillas", "D) Tratado de Itamaraty"],
+    "respuesta_correcta": "D) Tratado de Itamaraty"
+  },
+  {
+    "pregunta": "¿Quién fue el líder de la Revolución Liberal de 1895 en Ecuador?",
+    "opciones": ["A) Eloy Alfaro", "B) José María Urbina", "C) Ignacio de Veintimilla", "D) Eloy Alfaro"],
+    "respuesta_correcta": "A) Eloy Alfaro"
+  },
+  {
+    "pregunta": "¿Cuál es el nombre del famoso naturalista que estudió en el Ecuador y es conocido por su teoría de la evolución?",
+    "opciones": ["A) Albert Einstein", "B) Charles Darwin", "C) Gregor Mendel", "D) Isaac Newton"],
+    "respuesta_correcta": "B) Charles Darwin"
+  },
+  {
+    "pregunta": "¿Qué evento histórico se conmemora el 10 de agosto en Ecuador?",
+    "opciones": ["A) La Batalla de Pichincha", "B) La Independencia de Quito", "C) La Fundación de Quito", "D) La creación de la Gran Colombia"],
+    "respuesta_correcta": "B) La Independencia de Quito"
+  },
+  {
+    "pregunta": "¿Quién fue el principal autor de la Constitución de 2008 en Ecuador?",
+    "opciones": ["A) Rafael Correa", "B) Gustavo Noboa", "C) Jamil Mahuad", "D) Alfredo Palacio"],
+    "respuesta_correcta": "A) Rafael Correa"
+  },
+  {
+    "pregunta": "¿Qué civilización indígena habitó la región andina del Ecuador antes de la llegada de los españoles?",
+    "opciones": ["A) Inca", "B) Chibcha", "C) Cañari", "D) Caranqui"],
+    "respuesta_correcta": "A) Inca"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "pregunta": "¿Cuál es el resultado de (8 x 4) + (6 x 3)?",
+    "opciones": ["A) 44", "B) 50", "C) 40", "D) 48"],
+    "respuesta_correcta": "A) 44"
+  },
+  {
+    "pregunta": "Una caja tiene 12 lápices, y se venden 5 lápices. ¿Cuántos lápices quedan?",
+    "opciones": ["A) 8", "B) 6", "C) 7", "D) 5"],
+    "respuesta_correcta": "C) 7"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de (15 ÷ 3) x (6 - 2)?",
+    "opciones": ["A) 20", "B) 30", "C) 25", "D) 35"],
+    "respuesta_correcta": "B) 30"
+  },
+  {
+    "pregunta": "Un paquete de galletas cuesta $4. ¿Cuánto cuestan 3 paquetes?",
+    "opciones": ["A) $8", "B) $12", "C) $10", "D) $15"],
+    "respuesta_correcta": "B) $12"
+  },
+  {
+    "pregunta": "Si una persona tiene $50 y gasta $27, ¿cuánto dinero le queda?",
+    "opciones": ["A) $23", "B) $20", "C) $25", "D) $22"],
+    "respuesta_correcta": "A) $23"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de (20 + 5) ÷ 5?",
+    "opciones": ["A) 4", "B) 5", "C) 6", "D) 7"],
+    "respuesta_correcta": "B) 5"
+  },
+  {
+    "pregunta": "Una caja tiene 24 lápices, y se reparten entre 6 personas. ¿Cuántos lápices recibe cada persona?",
+    "opciones": ["A) 6", "B) 4", "C) 5", "D) 3"],
+    "respuesta_correcta": "B) 4"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de (12 x 3) - (8 x 2)?",
+    "opciones": ["A) 16", "B) 22", "C) 20", "D) 18"],
+    "respuesta_correcta": "C) 20"
+  },
+  {
+    "pregunta": "Si una persona tiene 15 manzanas y regala 7, ¿cuántas manzanas le quedan?",
+    "opciones": ["A) 8", "B) 7", "C) 9", "D) 6"],
+    "respuesta_correcta": "A) 8"
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de (18 ÷ 3) + (9 ÷ 3)?",
+    "opciones": ["A) 7", "B) 8", "C) 9", "D) 6"],
+    "respuesta_correcta": "C) 9"
+  }
+]

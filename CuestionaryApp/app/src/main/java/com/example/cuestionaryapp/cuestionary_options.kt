@@ -53,6 +53,7 @@ class CuestionaryOptions : AppCompatActivity() {
 
     private fun setValuesInLabels(lbl_user: TextView,userName: String?,lbl_counter: TextView) {
         lbl_user.text = "Hola, ${userName}"
+        countQuiz++
         lbl_counter.text = "Evualaciones completadas: ${countQuiz}"
     }
 

@@ -47,7 +47,7 @@ class Qualifications : AppCompatActivity() {
 
         // Calcular y mostrar el promedio
         val averageScore = calculateAverageScore(scoresList)
-        average.text = "Promedio: $averageScore"
+        average.text = String.format("Promedio: %.2f", averageScore)
     }
 
     private fun loadScoresList(): ArrayList<SubjectScore> {

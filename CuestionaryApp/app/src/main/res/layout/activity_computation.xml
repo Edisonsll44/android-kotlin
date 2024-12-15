@@ -5,28 +5,72 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <LinearLayout
+    <!-- Generic Header -->
+    <com.example.cuestionaryapp.GenericHeader
+        android:id="@+id/cmp_generic_header"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content" />
+
+    <!-- Question TextView -->
+    <TextView
+        android:id="@+id/txt_question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
-        <com.example.cuestionaryapp.GenericHeader
-            android:id="@+id/cmp_generic_header"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+    <!-- Options ListView -->
+    <ListView
+        android:id="@+id/list_view_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:padding="16dp"
+        android:textSize="18sp"/>
 
-        </com.example.cuestionaryapp.GenericHeader>
-    </LinearLayout>
+    <!-- Correct Answer TextView -->
+    <TextView
+        android:id="@+id/txt_response"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <!-- ImageView for Result Icon -->
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_gravity="center"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:visibility="gone" />
 
     <LinearLayout
+        android:id="@+id/ll_sumary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip2"
+        <TextView
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:textAlignment="center" />
 
+        <TextView
+            android:id="@+id/lbl_approved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aprobados:" />
+
+        <TextView
+            android:id="@+id/lbl_incorrect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Incorrectas:" />
+    </LinearLayout>
 </LinearLayout>

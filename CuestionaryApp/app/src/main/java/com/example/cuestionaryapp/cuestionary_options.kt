@@ -10,9 +10,11 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.example.cuestionaryapp.dto.SubjectScore
 
 class CuestionaryOptions : AppCompatActivity() {
     private var countQuiz = 0
+    private lateinit var scoresList: List<SubjectScore>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +26,6 @@ class CuestionaryOptions : AppCompatActivity() {
         val lbl_user = findViewById<TextView>(R.id.lbl_user)
         val lbl_counter = findViewById<TextView>(R.id.lbl_counter)
         val rdgSignatures = findViewById<RadioGroup>(R.id.rdg_signatures)
-        var itemSelectedId = -1
 
         val (userName, quizFinished) = getValuesFromOtherActivities()
         blockItemAndIncrementQuiz(quizFinished)
@@ -32,7 +33,6 @@ class CuestionaryOptions : AppCompatActivity() {
 
         // Configurar evento para RadioGroup
         rdgSignatures.setOnCheckedChangeListener { _, selectedId ->
-            itemSelectedId = selectedId
             if (selectedId == -1) {
                 Toast.makeText(this, "Por favor selecciona una materia", Toast.LENGTH_SHORT).show()
             } else {
@@ -62,6 +62,9 @@ class CuestionaryOptions : AppCompatActivity() {
     }
 
     private fun getValuesFromOtherActivities(): Pair<String?, String> {
+        val bundle = intent.extras
+        scoresList = bundle?.getParcelableArrayList("scores_list") ?: arrayListOf()
+        Log.d("CuestionaryOptions", "Scores List: $scoresList")
         val userName = intent.getStringExtra("user_name")
         val quizFinished = intent.getStringExtra("quiz_finished") ?: "false"
         return Pair(userName, quizFinished)

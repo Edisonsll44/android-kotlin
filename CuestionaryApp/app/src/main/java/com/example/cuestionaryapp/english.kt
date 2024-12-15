@@ -18,6 +18,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
+import com.example.cuestionaryapp.dto.SubjectScore
 import com.google.gson.Gson
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
@@ -177,11 +178,14 @@ class English : AppCompatActivity() {
 
     private fun returnOptionQuiz(){
         lifecycleScope.launch {
-            delay(7000)
+            delay(4000)
+            val scoresList = arrayListOf(
+                SubjectScore("Ingles",correctQuestion,itemId )
+            )
             val intent = Intent(this@English, CuestionaryOptions::class.java)
             intent.putExtra("quiz_finished", "true")
             intent.putExtra("user_name", userName)
-            intent.putExtra("item_id", itemId)
+            intent.putParcelableArrayListExtra("scores_list", scoresList)
             startActivity(intent)
             finish()
         }

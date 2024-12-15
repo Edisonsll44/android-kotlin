@@ -7,4 +7,7 @@
     <color name="secondaryColor">#03DAC5</color>
     <color name="backgroundColor">#FFFFFF</color>
     <color name="green">#006400</color>
+
+    <color name="background_color">#F0F0F0</color> <!-- Un gris claro -->
+    <color name="text_color">#333333</color> <!-- Un gris oscuro para el texto -->
 </resources>

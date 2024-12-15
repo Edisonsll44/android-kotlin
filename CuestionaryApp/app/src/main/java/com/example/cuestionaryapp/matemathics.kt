@@ -177,13 +177,13 @@ class Matemathics : AppCompatActivity() {
 
     private fun returnOptionQuiz(){
         lifecycleScope.launch {
-            delay(5000)
-            val score = SubjectScore("Matemáticas",correctQuestion )
+            delay(4000)
+            val scoresList = arrayListOf(
+                SubjectScore("Matemáticas",correctQuestion, itemId))
             val intent = Intent(this@Matemathics, CuestionaryOptions::class.java)
             intent.putExtra("quiz_finished", "true")
             intent.putExtra("user_name", userName)
-            intent.putExtra("item_id", itemId)
-            intent.putExtra("scores_list", score)
+            intent.putParcelableArrayListExtra("scores_list", scoresList)
             startActivity(intent)
             finish()
         }

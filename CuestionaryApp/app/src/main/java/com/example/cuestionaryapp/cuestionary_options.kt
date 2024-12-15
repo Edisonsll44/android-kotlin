@@ -10,7 +10,10 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.example.cuestionaryapp.dto.ScoresManager
 import com.example.cuestionaryapp.dto.SubjectScore
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 
 class CuestionaryOptions : AppCompatActivity() {
     private var countQuiz = 0
@@ -63,11 +66,47 @@ class CuestionaryOptions : AppCompatActivity() {
 
     private fun getValuesFromOtherActivities(): Pair<String?, String> {
         val bundle = intent.extras
-        scoresList = bundle?.getParcelableArrayList("scores_list") ?: arrayListOf()
-        Log.d("CuestionaryOptions", "Scores List: $scoresList")
+        if (bundle != null) {
+            for (key in bundle.keySet()) {
+                val value = bundle.get(key)
+                Log.d("CuestionaryOptions", "Key: $key, Value: $value")
+            }
+        } else {
+            Log.d("CuestionaryOptions", "No extras found")
+        }
+
+        // Obtener la lista de puntajes desde el Intent
+        val scoresList = intent.getParcelableArrayListExtra<SubjectScore>("scores_list") ?: arrayListOf()
+
+        // Guardar cada puntaje en ScoresManager y en SharedPreferences
+        for (score in scoresList) {
+            saveScoresList(score)
+        }
+
         val userName = intent.getStringExtra("user_name")
         val quizFinished = intent.getStringExtra("quiz_finished") ?: "false"
         return Pair(userName, quizFinished)
+    }
+
+    private fun saveScoresList(newScore: SubjectScore) {
+        // Cargar la lista existente
+        val sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE)
+        val json = sharedPreferences.getString("scores_list", null)
+        val scoresList: ArrayList<SubjectScore> = if (json != null) {
+            val type = object : TypeToken<ArrayList<SubjectScore>>() {}.type
+            Gson().fromJson(json, type)
+        } else {
+            arrayListOf()
+        }
+
+        // Agregar el nuevo puntaje a la lista
+        scoresList.add(newScore)
+
+        // Guardar la lista actualizada
+        val editor = sharedPreferences.edit()
+        val updatedJson = Gson().toJson(scoresList)
+        editor.putString("scores_list", updatedJson)
+        editor.apply()
     }
 
     private fun incrementQuizFinish(itemId: Int):Int {
@@ -118,5 +157,16 @@ class CuestionaryOptions : AppCompatActivity() {
         subjectName?.let { intent.putExtra("subject_name", subjectName) }
         intent.putExtra("item_id", selectedId)
         startActivity(intent)
+    }
+
+    private fun loadScoresList(): ArrayList<SubjectScore> {
+        val sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE)
+        val json = sharedPreferences.getString("scores_list", null)
+        return if (json != null) {
+            val type = object : TypeToken<ArrayList<SubjectScore>>() {}.type
+            Gson().fromJson(json, type)
+        } else {
+            arrayListOf()
+        }
     }
 }

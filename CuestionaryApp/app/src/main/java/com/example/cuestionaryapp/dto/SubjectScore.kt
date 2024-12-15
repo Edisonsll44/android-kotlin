@@ -4,12 +4,14 @@ import android.os.Parcel
 import android.os.Parcelable
 
 data class SubjectScore(
-        val subjectName: String,
-        val score: Int
+    val subjectName: String,
+    val score: Int,
+    val idItem: Int
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
-            parcel.readString() ?: "",
-            parcel.readInt()
+        parcel.readString() ?: "",
+        parcel.readInt(),
+        parcel.readInt()
     )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
@@ -30,4 +32,8 @@ data class SubjectScore(
             return arrayOfNulls(size)
         }
     }
+}
+
+object ScoresManager {
+    var scoresList: ArrayList<SubjectScore> = arrayListOf()
 }

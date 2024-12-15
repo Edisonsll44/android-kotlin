@@ -8,6 +8,6 @@
     <style name="Theme.CuestionaryApp" parent="Base.Theme.CuestionaryApp" />
 
     <style name="Theme.SplashApp.Splash" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowBackground">@color/primaryColor</item>
+        <item name="android:windowBackground">@color/background_color</item>
     </style>
 </resources>

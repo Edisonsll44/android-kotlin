@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado cuando se presiona o toca el item -->
+    <item android:state_pressed="true" android:drawable="@android:color/darker_gray" />
+
+    <!-- Estado cuando el item está enfocado -->
+    <item android:state_focused="true" android:drawable="@android:color/darker_gray" />
+
+    <!-- Estado por defecto (cuando no está presionado ni enfocado) -->
+    <item android:drawable="@android:color/white" />
+</selector>
